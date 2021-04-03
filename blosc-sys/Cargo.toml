@@ -1,6 +1,6 @@
 [package]
 name = "blosc-sys"
-version = "1.14.5-pre"
+version = "1.14.4"
 authors = ["Alan Somers <asomers@gmail.com>"]
 license = "MIT"
 readme = "README.md"
@@ -11,3 +11,6 @@ Rust FFI bindings to the C-BLOSC compression library
 documentation = "https://docs.rs/blosc-sys"
 categories = ["external-ffi-bindings"]
 keywords = ["compression"]
+
+[build-dependencies]
+pkg-config = "0.3.19"

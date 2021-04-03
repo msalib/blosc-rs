@@ -1,4 +1,4 @@
-# Blosc-sys
+# Blosc-sys with static linkage
 
 Rust FFI bindings for the C-Blosc compression library.
 
